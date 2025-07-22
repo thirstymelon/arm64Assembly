@@ -1,7 +1,7 @@
 # ⚙️ arm64Assembly
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-![Platform: macOS (Apple Silicon)](https://img.shields.io/badge/platform-Apple%20Silicon%20(macOS)-lightgrey)
+![Platform: macOS (Apple Silicon)](<https://img.shields.io/badge/platform-Apple%20Silicon%20(macOS)-lightgrey>)
 ![Arch: ARM64](https://img.shields.io/badge/architecture-ARM64-orange)
 ![Status](https://img.shields.io/badge/status-WIP-important)
 
