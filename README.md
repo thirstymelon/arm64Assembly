@@ -10,19 +10,6 @@ This repo aims to simplify low-level programming on macOS — from the very basi
 
 ---
 
-## 📑 Table of Contents
-
-- [📌 About](#-about)
-- [🧠 Topics Covered](#-topics-covered)
-- [💻 Target Platform](#-target-platform)
-- [📂 Project Structure](#-project-structure)
-- [🚧 Coming Soon](#-coming-soon)
-- [🤝 Contributions](#-contributions)
-- [📜 License](#-license)
-- [👨‍💻 Author](#-author)
-
----
-
 ## 📌 About
 
 This repository will grow into a complete, beginner-to-advanced guide for writing **ARM64 Assembly** code on Apple Silicon Macs.  
