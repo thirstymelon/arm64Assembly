@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=180&section=header&text=ARM64%20Assembly%20on%20Apple%20Silicon&fontSize=32&fontColor=ffffff" />
+</p>
+
 ⸻
 
 ⚙️ arm64Assembly
