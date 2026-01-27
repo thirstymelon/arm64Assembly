@@ -1,33 +1,68 @@
-# ⚙️ arm64Assembly
+⸻
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-![Platform: macOS (Apple Silicon)](<https://img.shields.io/badge/platform-Apple%20Silicon%20(macOS)-lightgrey>)
-![Arch: ARM64](https://img.shields.io/badge/architecture-ARM64-orange)
-![Status](https://img.shields.io/badge/status-WIP-important)
+⚙️ arm64Assembly
 
-A curated collection of ARM64 Assembly examples, notes, and projects for **Apple Silicon (M1/M2/M3)**.  
-This repo aims to simplify low-level programming on macOS — from the very basics to advanced concepts.
+A structured collection of ARM64 (AArch64) Assembly examples, notes, and mini-projects built specifically for Apple Silicon Macs (M1/M2/M3).
 
----
+This repository focuses on learning low-level programming on macOS — starting from the basics and gradually moving toward more advanced system-level concepts.
 
-## 📌 About
+⸻
 
-This repository will grow into a complete, beginner-to-advanced guide for writing **ARM64 Assembly** code on Apple Silicon Macs.  
-Perfect for:
+📌 About This Repository
 
-- Students exploring systems programming
-- Devs switching from x86 to ARM
-- Anyone curious about low-level macOS internals
+This project is designed as a step-by-step learning path for ARM64 assembly on macOS.
 
----
+It is ideal for:
+	•	Absolute beginners
+	•	🧑‍🎓 Students learning systems and low-level programming
+	•	🔄 Developers transitioning from x86/x64 to ARM64
+	•	🧠 Curious programmers who want to understand how software interacts with the OS at a low level
 
-## 💻 Target Platform
+Each folder represents a concept milestone, building on the previous one.
 
-- **Architecture**: ARM64 (AArch64)
-- **Platform**: macOS (Apple Silicon only)
-- **Assembler**: `as` (LLVM/GNU)
-- **Linker**: `ld`
-- **Debugger**: `lldb`
-- **Editor**: Any (VS Code recommended)
+⸻
 
----
+🧭 Learning Roadmap
+
+Folder	Topic	Description
+01_hello_Assembly	Hello World	Basic program structure and syscalls
+02_functions	Functions	Code organization and branching into reusable routines
+03_taking_input	Syscall I/O	Reading input and writing output using macOS syscalls
+
+More topics coming soon:
+	•	String processing
+	•	Number parsing (atoi / itoa)
+	•	Memory and stack usage
+	•	Building small terminal tools in pure assembly
+
+⸻
+
+💻 Target Platform
+
+Component	Details
+Architecture	ARM64 (AArch64)
+Operating System	macOS on Apple Silicon
+Assembler	as (LLVM toolchain)
+Linker	ld / clang
+Debugger	lldb
+Editor	Any (VS Code recommended)
+
+
+⸻
+
+🧠 Philosophy
+
+This repo avoids heavy abstractions and focuses on:
+	•	Direct system call usage
+	•	Understanding register-level programming
+	•	Learning how programs run without high-level runtimes
+
+The goal is not just to write assembly — but to understand how software really works underneath.
+
+⸻
+
+📜 License
+
+This project is licensed under the MIT License — feel free to use, modify, and learn from it.
+
+⸻
