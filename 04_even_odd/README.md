@@ -60,8 +60,9 @@ movk x3, #0x75b, lsl #16
 ⸻
 
 2️⃣ Checking Even or Odd
-
+```asm
 ands xzr, x3, #1
+```
 
 ❓ Why ands instead of modulo (% 2)?
 
