@@ -57,7 +57,7 @@ movz x3, #0x15cd
 movk x3, #0x75b, lsl #16
 ```
 
-⸻
+---
 
 2️⃣ Checking Even or Odd
 ```asm
@@ -80,7 +80,7 @@ Result	Z Flag	Meaning
 
 We store the result in xzr (zero register) because we only want flags, not the value.
 
-⸻
+---
 
 3️⃣ Loading String Addresses
 ```asm
@@ -92,7 +92,7 @@ add  x5, x5, odd@PAGEOFF
 ```
 macOS ARM64 requires building full 64-bit addresses using adrp + add.
 
-⸻
+---
 
 4️⃣ Loading String Lengths
 ```asm
@@ -106,7 +106,7 @@ evel = . - eve
 oddl = . - odd
 ```
 
-⸻
+---
 
 5️⃣ Selecting Even or Odd (Branchless)
 ```asm
@@ -129,7 +129,7 @@ NE (odd)	"Odd\n" address	Odd length
 
 This keeps execution smooth and fast.
 
-⸻
+---
 
 6️⃣ Writing to Console (macOS Syscall)
 ```asm
@@ -146,7 +146,7 @@ x2	String length
 x16	Syscall number
 
 
-⸻
+---
 
 7️⃣ Exiting the Program
 ```asm
@@ -155,7 +155,7 @@ mov x16, #1
 svc 0
 ```
 
-⸻
+---
 
 🧩 Data Section
 ```asm
@@ -168,4 +168,4 @@ oddl =  . - odd
 ```
 The assembler calculates string lengths at compile time.
 
-⸻
+---
